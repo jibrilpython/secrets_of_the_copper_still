@@ -1,0 +1,42 @@
+1. DESIGN PHILOSOPHY
+Visual: "Apothecary Precision" — the UI draws from the visual language of the pharmaceutical laboratory and the industrial perfume house: the specimen ticket in a botanical archive, the distillation diagram in a 19th-century chemistry manual, the precise ruled columns of a fragrance house's extraction logbook. These vessels were simultaneously scientific instruments and objects of considerable beauty — hand-hammered copper, blown glass, and silver-soldered fittings. The app should feel like their worthy documentation home: warm, precise, and carrying the quiet elegance of a laboratory that also happened to produce rose water and lavender oil.
+Mood: alchemical-precise, botanically warm, laboratory-elegant, extraction-serious, apothecary-quiet.
+Important: No mystical alchemy symbolism, no flame-under-flask illustrations, no vintage apothecary label styling used decoratively. The copper alembic was an industrial precision instrument used in commercial perfume production and pharmaceutical manufacturing — the app documents it with the rigour of a chemistry laboratory's equipment register, not the romance of a herbalist's notebook. The beauty belongs to the objects.
+
+2. COLORS
+#F6F2EC — Main background (botanical paper — the warm ivory of a herbarium specimen sheet, slightly more golden than undyed fleece, less amber than pattern wood. The color of a perfume house's archive room.)
+#181410 — Primary text & high-contrast elements (alembic black — warm, brown-black, like ink on a laboratory extraction log)
+#FFFFFF — Secondary panels / card surfaces
+#7A7268 — Secondary text / muted labels (condensate grey — warm and neutral, like the color of steam against a cold copper surface)
+#B5651D — Primary accent (copper still — the specific living orange-brown of a hand-hammered copper alembic that has been used and cleaned and used again. Not raw copper, not aged verdigris — the working color of a still in a productive laboratory. The most materially specific accent in the series.)
+#E8E2D8 — Outline / stroke / dividers (botanical archive rule lines, warm ivory)
+#4A7A5E — Secondary accent (botanical green — the deep muted green of a pressed herb specimen, a pharmacopoeia binding, a perfume house's ledger cover. For condition badges, botanical origin tags, and provenance indicators)
+#C0392B — Critical errors only
+Important: Copper still is the most materially alive accent in the series — it is the literal color of the primary material these instruments were made from, in active use. It sits between the pattern mahogany of the Foundry Floor and the forge orange of the Pyrometer, but it is neither — it is specifically the color of worked copper under laboratory light. Botanical green is its natural complement, referencing the plant materials being processed. The background is the most perfume-house specific in the series — not a workshop, not a field, not a mine — a warm archive room where glass and copper and botanical specimens coexist.
+
+3. TYPOGRAPHY
+Display / Headings: Cormorant Garamond (weight 600) — returns here from Shadows on the Quarry Wall, where it referenced architectural pattern books. Here it references the pharmacopoeia, the botanical treatise, and the perfume house catalogue — all traditions of the same Renaissance scholarly typography. At large sizes it has the refinement of an engraved still head and the authority of a chemistry professor's publication. Used for apparatus names on detail views and the app title.
+Body / Descriptions: Inter (weight 300–400) — neutral and precise. For condition notes, botanical source history, distillation specifications, and all prose fields.
+Monospace / Identifiers: IBM Plex Mono — for archive codes like SCS-COPPER-ALEMBIC-1897-FRA-GRASSE-PERFUME-011, still capacity (12 L), condenser length (840 mm), specific gravity calibration (0.800–1.000 SG), and all structured technical fields.
+Important: Cormorant Garamond at 24px and above only — its elegance becomes fragility below that. Inter for all reading-size text. IBM Plex Mono for every capacity, gravity value, and archive code — distillation specifications were precise to the millilitre and the degree, and the typography should honor that exactness.
+
+4. SURFACE & TEXTURE LANGUAGE
+
+Backgrounds: flat botanical paper ivory — no copper sheen, no glass refraction, no texture
+Cards: pure white with a 1px border at #E8E2D8 and 10px corner radius — laboratory record cards, warm and refined
+Still profile motif: each list card features a small SVG — a minimal side-elevation silhouette of the apparatus type: an alembic shown as its characteristic onion-body with goose-neck condenser arm, a retort as its spherical body with downward-curving neck, a separation funnel as a conical body with stopcock, a fractional column as a tall rectangle with horizontal plate lines. Rendered in copper still color for operational instruments, botanical green for display condition. The silhouette is the most immediately distinctive in the series — an alembic profile is as recognizable as a wine bottle, and carries ten times the history.
+Capacity and gravity badge: each card shows the key specification in IBM Plex Mono — 12 L / 0.85 SG, 500 ml retort, Column: 6 plates — in a small warm-bordered pill. Capacity and separation efficiency are the defining operational specifications.
+Photography: apparatus photography on warm white or very pale ivory — the goose-neck curve, the condenser coil, or the column plate assembly forward. For alembics, show the head and body together. For retorts, show the full profile. No props, no botanical material in frame.
+Provenance tag: small pill showing the originating laboratory, perfume house, or pharmacy — Grasse Perfumerie, Paris École de Pharmacie, London Pharmacopoeia Lab, Florentine Distillery — in botanical green at 10% opacity fill with full green text
+
+
+5. INTERACTION PRINCIPLES
+
+Transitions: 220–260ms ease-in-out — smooth and considered, like condensate running down a copper arm
+Selected state: copper still left-border (3px) + faint #F7EDE0 background tint on active cards
+Empty states: NO APPARATUS IN THIS STILL YET. in IBM Plex Mono, centered, condensate grey — one line
+Loading: a thin copper progress bar at screen top — warm and slow, like a distillation approaching yield temperature
+Navigation: bottom tab bar — four tabs: Still, Origin Map, Logbook, Settings. Active tab in copper.
+Distillation method filter: a first-class filter chip row — Steam distillation, Dry distillation, Fractional, Vacuum, Solvent extraction, Cold pressing — because the distillation method determines every aspect of the apparatus geometry — the still shape, the condenser type, the column height — and is the primary axis by which laboratory historians and pharmaceutical collectors classify and compare specimens
+
+Important: The apparatus silhouette SVG on each card is the most historically resonant profile motif in the series — the alembic silhouette is one of the oldest scientific instrument shapes in human history, unchanged in its essential geometry from the Islamic Golden Age through to 20th-century industrial perfume production. Its presence on every card is not just identification — it is a reminder that these vessels represent an unbroken chain of scientific practice across a thousand years. Copper means the apparatus is complete and distillation-ready. Green means it lives in a cabinet. That distinction should feel like the difference between a living laboratory and a museum.
