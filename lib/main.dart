@@ -35,7 +35,7 @@ class MyApp extends ConsumerWidget {
             debugShowCheckedModeBanner: false,
             title: 'Secrets of the Copper Still',
             theme: appTheme,
-            home: !userProv.firstTimeUser
+            home: userProv.firstTimeUser
                 ? const InitialScreen()
                 : const MainNavigation(),
             routes: {
