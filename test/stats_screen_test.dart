@@ -19,7 +19,7 @@ void main() {
         ],
         child: ScreenUtilInit(
           designSize: const Size(390, 844),
-          builder: (_, __) => const MaterialApp(home: StatsScreen()),
+          builder: (_, _) => const MaterialApp(home: StatsScreen()),
         ),
       ),
     );
